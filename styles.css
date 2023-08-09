@@ -1,0 +1,44 @@
+#gameDiv{
+  font-family: 'Open Sans';
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 10px;
+  background: rgb(164,168,171);
+  background: linear-gradient(90deg, rgba(164,168,171,1) 11%, rgba(164,168,171,0.4599089635854342) 48%);
+  text-align: center;
+
+}
+
+.choiceBtn{
+line-height:30px;
+width: 120px;
+border-radius: 10px;
+background-color: rgb(200, 200, 175);
+cursor: pointer;
+}
+
+#playerText{
+  color: rgb(8, 185, 35);
+
+}
+
+#computerText{
+  color: red;
+
+}
+
+
+
+.choiceBtn:before {
+  height: 0%;
+  width: 2px;
+}
+.choiceBtn:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+
+
